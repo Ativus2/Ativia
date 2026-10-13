@@ -1,0 +1,5 @@
+Tool: built-in image_gen, edit mode (background-extraction).
+Input: user-provided Codex 图像 2026年9月14日 10_27_03.png
+Output: ativia-pixel.png
+Prompt:
+Use case: background-extraction. Asset type: transparent PNG sprite for an existing Qt desktop pet. Input image 1 is the edit target. Remove ONLY the teal background and make it genuinely transparent with an alpha channel. Keep the supplied pixel-art girl exactly recognizable: preserve her navy hair, cat/fox ears including the white left inner ear, half-lidded blue and red eyes, pink face and small nose, black/white shirt and vivid blue tie, exact pose, expression, blocky pixel contours, colors, and bust framing. Do not invent a body or new accessories, do not repaint/reinterpret the character, do not smooth the pixel edges, do not add any text, shadow, border, ground or backdrop. Preserve the original foreground pixel details as closely as possible. Output only the cutout character on genuine transparent background, with the ears and side hair uncut and minimal transparent padding.

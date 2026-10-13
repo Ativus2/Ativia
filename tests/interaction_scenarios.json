@@ -1,0 +1,16 @@
+[
+  {"scene":"正在写代码，正常编辑", "mode":"entertainment", "automatic":true, "reply":""},
+  {"scene":"正在看视频，普通片段变化", "mode":"entertainment", "automatic":true, "reply":""},
+  {"scene":"学习英语题，用户明确要求解题", "mode":"learning", "automatic":false, "reply":"作答（英语）\nThe answer is 4.\n中文翻译\n答案是4。"},
+  {"scene":"长时间没有操作，没有明确进展", "mode":"entertainment", "automatic":true, "reply":""},
+  {"scene":"快速切换窗口，没有明确请求", "mode":"entertainment", "automatic":true, "reply":""},
+  {"scene":"屏幕文字很多，用户正在阅读", "mode":"entertainment", "automatic":true, "reply":""},
+  {"scene":"画面空白或信息不足", "mode":"entertainment", "automatic":true, "reply":""},
+  {"scene":"报错，模型判断有明确可用建议", "mode":"entertainment", "automatic":true, "reply":"这里提示文件不存在，先核对一下路径。"},
+  {"scene":"用户正在与别人聊天", "mode":"entertainment", "automatic":true, "reply":""},
+  {"scene":"游戏正常进行，仅动画变化", "mode":"entertainment", "automatic":true, "reply":""},
+  {"scene":"游戏结算，模型判断值得简短回应", "mode":"entertainment", "automatic":true, "reply":"这一局拿下了，最后守得很稳。"},
+  {"scene":"用户专注，模型选择不介入", "mode":"learning", "automatic":true, "reply":""},
+  {"scene":"用户没有回应，不强行续聊", "mode":"entertainment", "automatic":true, "reply":""},
+  {"scene":"内容基本相同，没有新增信息", "mode":"learning", "automatic":true, "reply":""}
+]

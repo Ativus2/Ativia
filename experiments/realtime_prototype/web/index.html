@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ativia 语音原型</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eff2f5;color:#182738;font:16px/1.65 'Microsoft YaHei',sans-serif}main{max-width:780px;margin:7vh auto;padding:32px}header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #cbd3dc;padding-bottom:18px}h1{font-size:24px;margin:0}small{color:#617284}#status{color:#225f63}section{min-height:125px;margin-top:24px;padding:20px;background:white;border-radius:8px}p{white-space:pre-wrap;margin:8px 0}label{display:block;font-size:13px;color:#647589}nav{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:26px}button,select{font:inherit;padding:10px 16px;border:1px solid #bdc9d4;border-radius:6px;background:white;color:#182738;cursor:pointer}#mic{background:#225f63;color:white;border-color:#225f63}#error{color:#9b3030;min-height:26px}footer{font-size:13px;color:#647589;margin-top:26px}button:disabled{opacity:.5}
+</style><main><header><div><h1>Ativia</h1><small>独立语音原型 · 不影响原来的助手</small></div><span id="status">连接中</span></header>
+<nav><button id="mic">开始语音对话</button><button id="interrupt">打断回答</button><select id="mode" aria-label="语音模式"><option value="auto">自动选择音色</option><option value="gaming">游戏模式</option><option value="openai">仅使用云端声音</option></select></nav>
+<nav><label>语音输入 <select id="stt"><option value="file">完整录音转写（对照）</option><option value="realtime">实时上传转写</option></select></label></nav>
+<section><label>你说</label><p id="transcript">点击开始后，直接说话。</p></section><section><label>Ativia</label><p id="reply">我会先听你说。你随时可以开口打断。</p></section><p id="error" role="alert"></p>
+<details><summary>试听反馈（本地保存）</summary><p>试着在回答中途说话；再保持安静，检查是否被自己的声音打断。请记录漏字、等待、声音中断和人格听感，外放双讲需真人验证。</p><select id="environment"><option value="external_speakers">外放音箱</option><option value="headphones">耳机</option></select><textarea id="feedbackText" rows="4" style="width:100%" placeholder="使用的输入模式、具体问题、听感和异常"></textarea><button id="feedbackSave">保存反馈</button><span id="feedbackState"></span></details>
+<footer id="micnote">外放模式会启用浏览器回声消除。屏幕观察和主动发言暂不参与对话。</footer></main>
+<script src="/ort/ort.wasm.min.js"></script><script src="/vad/bundle.min.js"></script><script src="/web/app.js"></script></html>

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "dry_run": true,
+  "allowed_groups": ["Ativia测试群"],
+  "send_enabled": false,
+  "voice_enabled": false,
+  "model_enabled": false,
+  "transport": "unverified"
+}

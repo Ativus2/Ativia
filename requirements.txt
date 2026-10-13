@@ -1,0 +1,10 @@
+mss>=9.0.0
+Pillow>=10.0.0
+openai>=1.40.0
+python-dotenv>=1.0.0
+PySide6>=6.7.0
+sounddevice>=0.5.0
+soundcard>=0.4.3
+numpy>=2.0.0
+websockets>=15,<16
+audioop-lts>=0.2.1; python_version >= "3.13"

@@ -1,0 +1,10 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ativia · 原生语音对照</title><link rel="stylesheet" href="/style.css"></head>
+<body><main><p class="eyebrow">ATIVIA / NATIVE VOICE</p><h1>原生语音对照</h1><p id="model">正在读取配置</p><p id="instance">正在连接本机控制服务</p>
+<p class="notice">这是 AI 生成的合成声音。仅本页面受以下按钮控制。测试前请自行暂停其他助手实例，避免同时收音。</p>
+<section><strong id="state">尚未启动</strong><p><span id="capture">麦克风未开启</span> · <span id="playback">未播放</span></p><p id="error" role="alert"></p></section>
+<nav><button id="start" disabled>开始会话 / 授权</button><button id="pause" disabled>完全暂停</button><button id="interrupt" disabled>停止当前回答</button><button id="mic" disabled>关闭麦克风</button><button id="end" disabled>结束会话</button></nav><p id="caption" aria-live="polite"></p><details><summary>本页已完成回答（仅内存）</summary><pre id="history"></pre></details>
+<p>开始后才申请麦克风；连接期间音频发往 OpenAI。外放模式已请求浏览器回声消除，实际双讲效果尚待真人验证。此页与桌宠共用一个语音实例，首次须在此页授权。</p>
+<p>完全暂停会释放麦克风并断开连接。恢复建立新会话，先前完成的记录仅留在本页内存，<b>不会恢复完整音频上下文</b>。设备已缓存的极短音频可能仍会播完。没有自动重连。</p>
+<p>固定原生模型与内置声音，不经过旧 STT、文字聊天模型或独立 TTS。默认不保存音频和私人对话。每次服务启动最多允许 3 次手动连接尝试。</p>
+<details><summary>真人测试与反馈</summary><p>用短问题试聊；在她讲话时插话；再分别在自己说话、等待回复和她发声时完全暂停。暂停后继续说话应无响应，恢复后应只回答新问题。请记录外放/耳机、误打断、回声、听感及是否真正停止。</p><textarea id="feedback" maxlength="2000" placeholder="外放 / 耳机；能否出声；打断；暂停；回声；自然程度。仅保存你主动填写的内容。"></textarea><button id="save">保存本机反馈</button><span id="saved"></span></details>
+</main><script type="module" src="/app.js"></script></body></html>

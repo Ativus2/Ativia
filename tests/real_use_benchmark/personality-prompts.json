@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "mode": "NORMAL",
+    "text": "在吗？"
+  },
+  {
+    "id": 2,
+    "mode": "NORMAL",
+    "text": "今天终于忙完了。"
+  },
+  {
+    "id": 3,
+    "mode": "NORMAL",
+    "text": "我去倒杯水。"
+  },
+  {
+    "id": 4,
+    "mode": "NORMAL",
+    "text": "今天脑袋像没开机。"
+  },
+  {
+    "id": 5,
+    "mode": "NORMAL",
+    "text": "哈哈，刚才那个也太离谱了。"
+  },
+  {
+    "id": 6,
+    "mode": "NORMAL",
+    "text": "谢谢你刚才陪我。"
+  },
+  {
+    "id": 7,
+    "mode": "NORMAL",
+    "text": "今天没什么事，就是想聊两句。"
+  },
+  {
+    "id": 8,
+    "mode": "NORMAL",
+    "text": "你是谁呀？"
+  },
+  {
+    "id": 9,
+    "mode": "NORMAL",
+    "text": "别每句话都问我问题。"
+  },
+  {
+    "id": 10,
+    "mode": "NORMAL",
+    "text": "以后回复简短一点。"
+  },
+  {
+    "id": 11,
+    "mode": "GAME",
+    "text": "我在玩熟悉的 Helldivers 2，刚刚打完一场普通战斗。"
+  },
+  {
+    "id": 12,
+    "mode": "GAME",
+    "text": "啊，又死了。"
+  },
+  {
+    "id": 13,
+    "mode": "GAME",
+    "text": "这队友一路都在跑，笑死。"
+  },
+  {
+    "id": 14,
+    "mode": "GAME",
+    "text": "终于过了。"
+  },
+  {
+    "id": 15,
+    "mode": "GAME",
+    "text": "这张图我很熟。"
+  },
+  {
+    "id": 16,
+    "mode": "GAME",
+    "text": "这个任务怎么打？"
+  },
+  {
+    "id": 17,
+    "mode": "GAME",
+    "text": "你先陪我看着就行，别教我。"
+  },
+  {
+    "id": 18,
+    "mode": "GAME",
+    "text": "今天只想随便打两局。"
+  },
+  {
+    "id": 19,
+    "mode": "CLASS",
+    "text": "오늘 수업은 조금 어려워요. 한 문장으로 답해 주세요."
+  },
+  {
+    "id": 20,
+    "mode": "CLASS",
+    "text": "Explain what “opportunity cost” means in one sentence, with Chinese translation underneath."
+  },
+  {
+    "id": 21,
+    "mode": "CLASS",
+    "text": "한국어 문장 “시간이 없어요”를 설명하고 중국어 번역도 적어 주세요."
+  },
+  {
+    "id": 22,
+    "mode": "CLASS",
+    "text": "这节课先别主动出声。"
+  },
+  {
+    "id": 23,
+    "mode": "FOCUS",
+    "text": "我先专注写一会儿。"
+  },
+  {
+    "id": 24,
+    "mode": "FOCUS",
+    "text": "终于写完这一段了。"
+  },
+  {
+    "id": 25,
+    "mode": "VOICE",
+    "text": "能听到我吗？"
+  },
+  {
+    "id": 26,
+    "mode": "VOICE",
+    "text": "这一句短一点，说个轻松的。"
+  },
+  {
+    "id": 27,
+    "mode": "VOICE",
+    "text": "刚才忙了一圈终于坐下了。"
+  },
+  {
+    "id": 28,
+    "mode": "SLEEP",
+    "text": "我准备休息啦。"
+  },
+  {
+    "id": 29,
+    "mode": "SLEEP",
+    "text": "晚安。"
+  },
+  {
+    "id": 30,
+    "mode": "NORMAL",
+    "text": "你还记得我不喜欢什么样的游戏建议吗？"
+  }
+]

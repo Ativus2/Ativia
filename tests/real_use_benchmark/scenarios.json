@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Normal Conversation",
+    "mode": "NORMAL",
+    "procedure": "普通文字聊天，检查人格、追问和错误召回",
+    "automated_contract": "test_iteration4_performance.ForegroundTests.test_new_text_while_agent_blocked_is_delivered_and_old_cannot_overwrite",
+    "real_use_status": "cloud_and_qt_passed_human_rating_pending",
+    "evidence": "30 cloud outputs; runtime-ui.json actual text send with real API"
+  },
+  {
+    "id": 2,
+    "name": "Voice Interrupt",
+    "mode": "VOICE",
+    "procedure": "TTS 中用户讲话，旧音频停止，旧 Agent 不覆盖",
+    "automated_contract": "test_iteration4_performance.ForegroundTests.test_new_voice_stops_tts_immediately",
+    "real_use_status": "hardware_tts_cancel_passed_human_voice_pending",
+    "evidence": "tts-after.log timed cancellation only"
+  },
+  {
+    "id": 3,
+    "name": "Rapid Voice Turns",
+    "mode": "VOICE",
+    "procedure": "连续两句，保留起始词，第二句优先",
+    "automated_contract": "test_real_use_voice.AcousticTests.test_normal_speech_hangover_preserves_start_and_full_utterance",
+    "real_use_status": "automated_contract_passed_human_pending",
+    "evidence": "synthetic VAD fixture and worker replacement"
+  },
+  {
+    "id": 4,
+    "name": "Helldivers 2 Passive",
+    "mode": "GAME",
+    "procedure": "普通战斗无提问，不主动教学",
+    "automated_contract": "test_iteration4_personality",
+    "real_use_status": "rule_test_passed_live_game_pending",
+    "evidence": "no live Helldivers 2 available"
+  },
+  {
+    "id": 5,
+    "name": "Helldivers 2 Explicit Question",
+    "mode": "GAME",
+    "procedure": "明确问这个任务怎么打，允许帮助",
+    "automated_contract": "test_iteration4_personality",
+    "real_use_status": "cloud_prompt_passed_live_game_pending",
+    "evidence": "cloud reply asks for missing mission details"
+  },
+  {
+    "id": 6,
+    "name": "Game Death",
+    "mode": "GAME",
+    "procedure": "死亡可短反应，禁止无请求教学",
+    "automated_contract": "test_iteration4_personality",
+    "real_use_status": "rule_and_cloud_prompt_passed_live_game_pending",
+    "evidence": "death text fixture only, not gameplay"
+  },
+  {
+    "id": 7,
+    "name": "Class Mode",
+    "mode": "CLASS",
+    "procedure": "TTS 禁止，韩语字幕、拖动、AltQ、Esc、×正常",
+    "automated_contract": "test_latency_ui",
+    "real_use_status": "cloud_wasapi_passed_full_ui_manual_pending",
+    "evidence": "wasapi-ko.jsonl; 3 driver discontinuities; Qt CLASS TTS gate / explanation close passed"
+  },
+  {
+    "id": 8,
+    "name": "Memory Recall",
+    "mode": "GAME",
+    "procedure": "保存明确偏好，退出重启后召回",
+    "automated_contract": "test_iteration4_memory.MemoryRetrievalTests.test_persistence_reaches_actual_reply_context_after_restart",
+    "real_use_status": "sqlite_restart_and_reply_context_passed",
+    "evidence": "actual SQLite reopen; isolated Qt runtime persisted preference"
+  },
+  {
+    "id": 9,
+    "name": "Irrelevant Memory",
+    "mode": "GAME",
+    "procedure": "游戏不召回无关 Python/韩语/音色信息",
+    "automated_contract": "test_iteration4_memory.MemoryRetrievalTests.test_game_context_excludes_unrelated_class_and_python",
+    "real_use_status": "curated_recall_passed_larger_set_pending",
+    "evidence": "one 4-record set; no population accuracy claim"
+  },
+  {
+    "id": 10,
+    "name": "Return From Idle",
+    "mode": "NORMAL",
+    "procedure": "后台忙时用户返回，旧回复作废",
+    "automated_contract": "test_iteration4_performance.ForegroundTests.test_slow_capture_is_not_on_qt_thread_and_pause_blocks_result",
+    "real_use_status": "automated_contract_passed_human_pending",
+    "evidence": "background capture delayed fixture; actual text-only idle 58s"
+  }
+]

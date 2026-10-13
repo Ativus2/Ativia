@@ -1,0 +1,6 @@
+node_modules/
+.tools/
+logs/
+dist/
+__pycache__/
+.env

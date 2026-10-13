@@ -1,0 +1,58 @@
+[
+  {
+    "case": "coding",
+    "observation": {
+      "scene": "coding",
+      "event": "none",
+      "subject": "parser.py 中的 read_names 函数编辑",
+      "evidence": "编辑器显示逐行 strip 后追加到 names 并返回；终端状态为 ready",
+      "confidence": "high",
+      "focused": true,
+      "intent": "WAIT",
+      "reply": ""
+    },
+    "delivered_reply": ""
+  },
+  {
+    "case": "empty",
+    "observation": {
+      "scene": "unknown",
+      "event": "none",
+      "subject": "空白深色界面",
+      "evidence": "屏幕仅见深色空白区域，无可辨认的主内容或操作",
+      "confidence": "low",
+      "focused": false,
+      "intent": "WAIT",
+      "reply": ""
+    },
+    "delivered_reply": ""
+  },
+  {
+    "case": "error",
+    "observation": {
+      "scene": "coding",
+      "event": "error",
+      "subject": "运行 app.py 时缺少 numpy 模块",
+      "evidence": "终端运行 python app.py，显示 ModuleNotFoundError: No module named 'numpy'",
+      "confidence": "high",
+      "focused": true,
+      "intent": "REACT",
+      "reply": "numpy 还没进这个环境。"
+    },
+    "delivered_reply": ""
+  },
+  {
+    "case": "twist",
+    "observation": {
+      "scene": "game",
+      "event": "surprise",
+      "subject": "The Smallest Detective结局",
+      "evidence": "画面显示“THE END?”，侦探摘下面具，真相是猫，并解锁结局。",
+      "confidence": "high",
+      "focused": true,
+      "intent": "TEASE",
+      "reply": "原来凶手自带猫步。"
+    },
+    "delivered_reply": ""
+  }
+]

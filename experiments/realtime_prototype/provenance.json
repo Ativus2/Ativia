@@ -1,0 +1,12 @@
+{
+  "backend_repository": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+  "backend_commit": "992309c0aa19845960228f880013d4685fde93b5",
+  "frontend_repository": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber-Web",
+  "frontend_commit": "d176e7df2366952e3bacbf12cf9a8b18a4315932",
+  "license": "MIT",
+  "copied_file": "experiments/upstream/Open-LLM-VTuber/src/open_llm_vtuber/utils/sentence_divider.py",
+  "upstream_sha256": "BF045FD241C19D5F064EC26613AC6D0DEAE89570A2DC592EFA836634D450798E",
+  "copied_sha256": "BF045FD241C19D5F064EC26613AC6D0DEAE89570A2DC592EFA836634D450798E",
+  "vad_version": "0.0.24",
+  "onnxruntime_web_version": "1.14.0"
+}

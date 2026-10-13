@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+<!-- Original Ativia trial mascot. Drawn for this repository; no third-party skin. -->
+<defs><linearGradient id="hair" x2="0" y2="1"><stop stop-color="#dbe5ff"/><stop offset="1" stop-color="#8fa3d8"/></linearGradient><linearGradient id="coat" x2="0" y2="1"><stop stop-color="#526b98"/><stop offset="1" stop-color="#334566"/></linearGradient></defs>
+<ellipse cx="90" cy="166" rx="42" ry="7" fill="#17223d" opacity=".18"/>
+<path d="M48 59Q43 14 88 15Q134 8 137 64L142 126Q125 139 111 121H65Q39 133 38 115Z" fill="url(#hair)" stroke="#566587" stroke-width="2"/>
+<path d="M57 35L51 9Q76 17 78 25M112 24Q126 10 136 14L132 39" fill="#dbe5ff" stroke="#566587" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M66 119Q50 124 48 143L66 148L69 158H111L116 145L130 137Q125 124 113 121Z" fill="url(#coat)" stroke="#273953" stroke-width="2"/>
+<path d="M68 151L65 165Q71 174 81 167L83 152M99 152L100 166Q109 174 115 166L111 150" fill="#e2e8f5" stroke="#566587" stroke-width="2"/>
+<path d="M52 135Q41 136 46 146Q52 151 60 143M123 131Q137 130 135 141Q130 149 122 141" fill="#ffe3d8" stroke="#927f8e" stroke-width="2"/>
+<ellipse cx="90" cy="77" rx="41" ry="44" fill="#ffe8df" stroke="#968296" stroke-width="2"/>
+<path d="M48 67Q40 22 86 21Q133 14 133 69L116 59L114 42Q100 66 86 69L94 43Q79 67 67 69L71 46L55 72Z" fill="url(#hair)" stroke="#566587" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="65" cy="92" rx="8" ry="4" fill="#f4aeb4" opacity=".6"/><ellipse cx="115" cy="92" rx="8" ry="4" fill="#f4aeb4" opacity=".6"/>
+<path d="M80 117L90 132L102 117" fill="#d8e7ed"/>
+<path d="M79 127L89 130L83 139ZM102 125L91 130L99 139Z" fill="#70d2c0" stroke="#397e83"/>
+<circle cx="90" cy="131" r="3" fill="#f4de9a"/>
+<path d="M71 151L110 151" stroke="#8aabc9" stroke-width="2"/><path d="M117 58L126 52L130 59L124 66Z" fill="#8ee4d0" stroke="#497d91"/>
+</svg>

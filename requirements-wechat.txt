@@ -1,0 +1,4 @@
+# Optional Windows Python 3.12 integration. 41.1.2 is unavailable on official PyPI.
+# 2026-09-28: retained; official index exposes only 41.1.7 (description: WeChat 4.1.8).
+# No verified official upgrade for the local 4.1.10.31 client; no global Python changes.
+wxauto4==41.1.7
